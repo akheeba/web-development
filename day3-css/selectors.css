@@ -1,0 +1,57 @@
+/* 1. Universal Selector */
+/* Applies to every element */
+*{
+    margin:10px;
+    font-family:Arial, sans-serif;
+}
+
+/* 2. Element Selector */
+/* Styles all paragraph elements */
+p{
+    color:blue;
+}
+
+/* 3. ID Selector */
+/* Styles the element with id="special" */
+#special{
+    color:red;
+    font-weight:bold;
+}
+
+/* 4. Class Selector */
+/* Styles all elements with class="highlight" */
+.highlight{
+    background-color:yellow;
+}
+
+/* 5. Group Selector */
+/* Styles both h3 and h2 together */
+h2,h3{
+    color:green;
+}
+
+/* 6. Descendant Selector */
+/* Styles paragraphs inside .container */
+.container p{
+    color:purple;
+}
+
+/* 7. Child Selector */
+/* Styles only direct li children of ul */
+ul > li{
+    color:darkorange;
+}
+
+/* 8. Attribute Selector */
+/* Styles text input */
+input[type="text"]{
+    border:2px solid black;
+    padding:8px;
+}
+
+/* 9. Pseudo-class Selector */
+/* Changes link color when mouse hovers */
+a:hover{
+    color:red;
+    font-size:20px;
+}

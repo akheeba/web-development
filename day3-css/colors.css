@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:30px;
+}
+
+.box{
+    width:250px;
+    padding:20px;
+    margin:15px 0;
+    color:white;
+    font-size:18px;
+    border:2px solid black;
+}
+
+/* Named Color */
+.named{
+    background-color:blue;
+}
+
+/* HEX Color */
+.hex{
+    background-color:#0000FF;
+}
+
+/* RGB Color */
+.rgb{
+    background-color:rgb(0,0,255);
+}
+
+/* HSL Color */
+.hsl{
+    background-color:hsl(240,100%,50%);
+}
+
+/* RGBA Color (Transparent) */
+.rgba{
+    background-color:rgba(0,0,255,0.5);
+    color:black;
+}

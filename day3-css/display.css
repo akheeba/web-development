@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Block Display */
+.block{
+    display: block;
+    width: 200px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Inline Display */
+.inline{
+    display: inline;
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Inline-Block Display */
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid red;
+    padding: 15px;
+    margin: 10px;
+    
+}
