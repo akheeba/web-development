@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Operators</title>
+</head>
+<body>
+
+<h1>Day 4 - JavaScript Comparison Operators</h1>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>
+Comparison operators compare two values and return either <strong>true</strong> or <strong>false</strong>.
+</p>
+
+<p>
+This practical demonstrates the difference between
+<strong>== (Loose Equality)</strong> and
+<strong>=== (Strict Equality)</strong>.
+</p>
+
+<hr>
+
+<h2>Difference</h2>
+
+<table border="1" cellpadding="10">
+
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+</tr>
+
+<tr>
+<td>==</td>
+<td>Compares only the values after type conversion if necessary.</td>
+</tr>
+
+<tr>
+<td>===</td>
+<td>Compares both value and data type without type conversion.</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Examples Used</h2>
+
+<pre>
+"10" == 10
+"10" === 10
+
+true == 1
+true === 1
+
+null == undefined
+null === undefined
+</pre>
+
+<hr>
+
+<h2>Expected Result</h2>
+
+<pre>
+"10" == 10          → true
+"10" === 10         → false
+
+true == 1           → true
+true === 1          → false
+
+null == undefined   → true
+null === undefined  → false
+</pre>
+
+<hr>
+
+<p>
+Open the browser console (<strong>F12 → Console</strong>) to view the output.
+</p>
+
+<script src="task3-comparison.js"></script>
+
+</body>
+</html>
