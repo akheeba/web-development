@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Selection</title>
+</head>
+<body>
+
+<h1 id="mainHeading">Day 5 - DOM Selection</h1>
+
+<p class="description">
+    This paragraph demonstrates DOM selection methods.
+</p>
+
+<p class="description">
+    This is another paragraph with the same class.
+</p>
+
+<h2>JavaScript Topics</h2>
+
+<ul>
+    <li>Variables</li>
+    <li>Functions</li>
+    <li>DOM</li>
+</ul>
+
+<button class="btn">Click Me</button>
+
+<hr>
+
+<h2>DOM Selection Methods</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Method</th>
+        <th>Purpose</th>
+    </tr>
+    <tr>
+        <td>getElementById()</td>
+        <td>Selects one element using its ID.</td>
+    </tr>
+    <tr>
+        <td>getElementsByClassName()</td>
+        <td>Selects all elements with the same class.</td>
+    </tr>
+    <tr>
+        <td>getElementsByTagName()</td>
+        <td>Selects all elements with the same HTML tag.</td>
+    </tr>
+    <tr>
+        <td>querySelector()</td>
+        <td>Selects the first matching CSS selector.</td>
+    </tr>
+    <tr>
+        <td>querySelectorAll()</td>
+        <td>Selects all matching CSS selectors.</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Expected Console Output</h2>
+
+<pre>
+getElementById:
+<h1 id="mainHeading">...</h1>
+
+getElementsByClassName:
+HTMLCollection(2)
+
+getElementsByTagName:
+HTMLCollection(2)
+
+querySelector:
+<button class="btn">...</button>
+
+querySelectorAll:
+NodeList(3)
+</pre>
+
+<hr>
+
+<p>
+Open the browser console (<strong>F12 → Console</strong>) to view the output.
+</p>
+
+<script src="task5-dom-selection.js"></script>
+
+</body>
+</html>

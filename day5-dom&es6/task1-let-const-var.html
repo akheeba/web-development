@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let, const and var</title>
+</head>
+<body>
+
+<h1>Day 5 - let, const and var</h1>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>
+JavaScript provides three keywords to declare variables:
+<strong>var</strong>, <strong>let</strong>, and <strong>const</strong>.
+Each has different rules regarding scope and reassignment.
+</p>
+
+<hr>
+
+<h2>Comparison</h2>
+
+<table border="1" cellpadding="10">
+
+<tr>
+<th>Keyword</th>
+<th>Can Reassign?</th>
+<th>Scope</th>
+</tr>
+
+<tr>
+<td>var</td>
+<td>Yes</td>
+<td>Function Scope</td>
+</tr>
+
+<tr>
+<td>let</td>
+<td>Yes</td>
+<td>Block Scope</td>
+</tr>
+
+<tr>
+<td>const</td>
+<td>No</td>
+<td>Block Scope</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Concepts Demonstrated</h2>
+
+<ul>
+<li>Variable declaration</li>
+<li>Reassignment</li>
+<li>Block Scope</li>
+<li>Function Scope</li>
+</ul>
+
+<hr>
+
+<h2>Expected Output</h2>
+
+<pre>
+let value: 20
+
+const PI: 3.14159
+
+var inside block: I am var
+var outside block: I am var
+
+let inside block: I am let
+let outside block: Error (not accessible)
+</pre>
+
+<hr>
+
+<p>
+Open the browser console (<strong>F12 → Console</strong>) to view the output.
+</p>
+
+<script src="task1-let-const-var.js"></script>
+
+</body>
+</html>
